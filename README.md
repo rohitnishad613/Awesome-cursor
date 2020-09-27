@@ -1,37 +1,66 @@
-## Welcome to GitHub Pages
+# Awesome-cursor
 
-You can use the [editor on GitHub](https://github.com/rohitnishad613/Awesome-cursor/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Tiny JS library to GET custom awesome cursor for website..
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Demo
 
-### Markdown
+Visit any one of them both have Awesome-cursor.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* [https://rohitnishad613.github.io](https://rohitnishad613.github.io)
 
-```markdown
-Syntax highlighted code block
+* [https://rohitnishad613.github.io/Awesome-cursor](https://rohitnishad613.github.io/Awesome-cursor)
 
-# Header 1
-## Header 2
-### Header 3
+## Installation
 
-- Bulleted
-- List
+### CDN
 
-1. Numbered
-2. List
+Use this CDN Link to get Awesome-cursor.
 
-**Bold** and _Italic_ and `Code` text
+```html
+https://cdn.jsdelivr.net/gh/rohitnishad613/Awesome-cursor/awesome-cursor.js
+```
+## Setup
+Add this script tag in your root page.
 
-[Link](url) and ![Image](src)
+```html
+<script src="https://cdn.jsdelivr.net/gh/rohitnishad613/Awesome-cursor/awesome-cursor.js"></script>
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+then just call it as,
 
-### Jekyll Themes
+```html
+<script>
+  AwesomeCursor({}); // important
+</script>
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rohitnishad613/Awesome-cursor/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Customization
 
-### Support or Contact
+```html
+<script>
+  let options = {
+     cursor_color = "rgb(255, 0, 0)",
+     cursor_size = 7,
+     cursor_canvas_color = "rgba(255, 0, 0, 0.5)",
+     cursor_canvas_radius = 15,
+     cursor_canvas_strokeWidth = 2,
+  }
+  AwesomeCursor(options);
+</script>
+```
+| Option | Default Value | Description |
+| --- | --- |  --- |
+| cursor_color | "rgb(255, 0, 0)" | Color of small dot in cursor. |
+| cursor_size | 7 | Size of small dot in cursor.|
+| cursor_canvas_color | "rgba(255, 0, 0, 0.5)" | Color of animated border of dot.|
+| cursor_canvas_radius | 15 | Border Radius of animated border of dot.|
+| cursor_canvas_strokeWidth | 2 | Width of Border Radius of animated border of dot.|
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
