@@ -48,6 +48,7 @@ then just call it as,
   AwesomeCursor(options);
 </script>
 ```
+
 | Option | Default Value | Description |
 | --- | --- |  --- |
 | cursor_color | "rgb(255, 0, 0)" | Color of small dot in cursor. |
