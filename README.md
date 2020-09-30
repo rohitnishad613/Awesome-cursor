@@ -20,9 +20,11 @@ Use this CDN Link to get Awesome-cursor.
 https://cdn.jsdelivr.net/gh/rohitnishad613/Awesome-cursor/awesome-cursor.js
 ```
 ## Setup
-Add this script tag in your root page.
+Add 3 script tag in your page.
 
 ```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.0/paper-core.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/rohitnishad613/Awesome-cursor/awesome-cursor.js"></script>
 ```
 
