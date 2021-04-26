@@ -2,12 +2,6 @@
 
 A Tiny JS library to GET custom awesome cursor for website.
 
-## Demo
-
-Visit any one of them both have Awesome-cursor.
-
-* [https://rohitnishad613.github.io](https://rohitnishad613.github.io)
-
 ## Installation
 
 ### CDN
